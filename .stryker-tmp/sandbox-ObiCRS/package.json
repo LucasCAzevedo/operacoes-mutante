@@ -19,6 +19,9 @@
     "transform": {
       "^.+\\.js$": "babel-jest"
     },
-    "testMatch": ["**/test/*.test.js"]
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "\\.stryker-tmp"
+    ]
   }
 }
